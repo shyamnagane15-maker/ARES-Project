@@ -11,7 +11,7 @@ import {
   registerNotificationCategories,
   requestPermissions,
   showStickyNotification
-} from './app/notification_handler';
+} from './notification_handler';
 import { sendOfflineSMS } from './sms_fallback';
 
 export default function AresHome() {
