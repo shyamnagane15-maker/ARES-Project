@@ -4,10 +4,10 @@
     "slug": "ares-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",  
+    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png", 
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#FFC0CB"
     },
@@ -19,16 +19,21 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png", 
+        "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFC0CB"
       },
-      "package": "com.ares.protection" 
+      "package": "com.ares.protection"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
-      "expo-notifications" 
-    ]
+      "expo-notifications"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "cb17d0fa-2972-46e0-975f-24648a120da3"
+      }
+    }
   }
 }
